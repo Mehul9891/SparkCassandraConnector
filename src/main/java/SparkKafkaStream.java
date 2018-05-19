@@ -38,7 +38,7 @@ public class SparkKafkaStream{
             kafkaParams.put("enable.auto.commit", true);
             Collection<String> topics = Arrays.asList("my_latest_topic");
             JavaSparkContext jsc = new JavaSparkContext(conf);
-            JavaStreamingContext ssc = new JavaStreamingContext(jsc, Durations.seconds(2));
+            JavaStreamingContext ssc = new JavaStreamingContext(jsc, Durations.seconds(10));
 
             JavaInputDStream<ConsumerRecord<String, String>> stream = KafkaUtils.createDirectStream(
                     ssc,
@@ -46,7 +46,7 @@ public class SparkKafkaStream{
                     ConsumerStrategies.Subscribe(topics, kafkaParams)
             );
             JavaPairDStream<String, Integer> output= stream.
-                    flatMap( line -> (Iterator<String>)Arrays.asList(line.value().split(" "))).
+                    flatMap( line -> Arrays.asList(line.value().split(" ")).iterator()).
                     mapToPair(record -> new Tuple2<String, Integer>(record , 1)).
                     reduceByKey((x,y) -> (x+y));
             System.out.println("Started SPARK Streaming");
@@ -54,7 +54,7 @@ public class SparkKafkaStream{
             output.print();
             ssc.start();
             try {
-                   ssc.awaitTerminationOrTimeout(10000);
+                   ssc.awaitTerminationOrTimeout(100000);
             } catch (InterruptedException e) {
                    e.printStackTrace();
             }
