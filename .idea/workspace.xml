@@ -1,7 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="472eadb3-3300-427a-aac3-939e44376a8d" name="Default" comment="" />
+    <list default="true" id="472eadb3-3300-427a-aac3-939e44376a8d" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/SparkSQLCassandra.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/SparkJavaFirst.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SparkJavaFirst.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Product.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/SparkJavaFirst.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/SparkKafkaStream.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/SparkSocketStream.class" beforeDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -19,8 +28,8 @@
       <file leaf-file-name="SparkKafkaStream.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/SparkKafkaStream.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="57">
-              <caret line="47" column="32" selection-start-line="47" selection-start-column="32" selection-end-line="47" selection-end-column="32" />
+            <state relative-caret-position="374">
+              <caret line="35" column="58" selection-start-line="35" selection-start-column="58" selection-end-line="35" selection-end-column="58" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -31,8 +40,8 @@
       <file leaf-file-name="SparkJavaFirst.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/SparkJavaFirst.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="100" lean-forward="true" selection-start-line="100" selection-end-line="100" />
+            <state relative-caret-position="131">
+              <caret line="108" column="39" selection-start-line="108" selection-start-column="39" selection-end-line="108" selection-end-column="39" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -40,11 +49,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SparkSocketStream.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="SparkSQLCassandra.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/SparkSQLCassandra.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="50" selection-start-line="2" selection-start-column="50" selection-end-line="2" selection-end-column="50" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SparkSocketStream.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/SparkSocketStream.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="53">
-              <caret line="34" column="48" lean-forward="true" selection-start-line="34" selection-start-column="48" selection-end-line="34" selection-end-column="48" />
+            <state relative-caret-position="306">
+              <caret line="34" column="48" selection-start-line="34" selection-start-column="48" selection-end-line="34" selection-end-column="48" />
             </state>
           </provider>
         </entry>
@@ -52,8 +70,8 @@
       <file leaf-file-name="StreamJoiningWithChecksum.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/StreamJoiningWithChecksum.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="36" column="2" selection-start-line="36" selection-start-column="2" selection-end-line="53" selection-end-column="29" />
+            <state relative-caret-position="216">
+              <caret line="34" column="38" selection-start-line="34" selection-start-column="34" selection-end-line="34" selection-end-column="38" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -64,8 +82,8 @@
       <file leaf-file-name="KafkaMsgProducer.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../ApacheKafkaPractise/src/KafkaMsgProducer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="18" column="32" lean-forward="true" selection-start-line="18" selection-start-column="32" selection-end-line="18" selection-end-column="32" />
+            <state relative-caret-position="187">
+              <caret line="18" column="32" selection-start-line="18" selection-start-column="32" selection-end-line="18" selection-end-column="32" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -77,7 +95,6 @@
         <entry file="file://$PROJECT_DIR$/../ApacheKafkaPractise/src/KafkaMsgConsumer.java">
           <provider selected="true" editor-type-id="text-editor">
             <state>
-              <caret lean-forward="true" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -96,11 +113,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>wordciy</find>
-      <find>spark</find>
-      <find>s</find>
-      <find>slf</find>
-      <find>outp</find>
       <find>hey</find>
       <find>9094</find>
       <find>got</find>
@@ -120,25 +132,31 @@
       <find>hello</find>
       <find>going</find>
       <find>ok</find>
-      <find>error</find>
       <find>gupta)</find>
       <find>gupta</find>
       <find>gupta,</find>
-      <find>mehul</find>
       <find>mehul,</find>
+      <find>guava</find>
+      <find>peoples</find>
+      <find>last_nae</find>
+      <find>error</find>
+      <find>spark</find>
+      <find>satish</find>
+      <find>mehul</find>
     </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/main/java/Product.java" />
         <option value="$PROJECT_DIR$/src/main/java/ShortSet.java" />
-        <option value="$PROJECT_DIR$/src/main/java/SparkJavaFirst.java" />
         <option value="$PROJECT_DIR$/../ApacheKafkaPractise/src/FlinkMsgConsumer.java" />
         <option value="$PROJECT_DIR$/../ApacheKafkaPractise/src/KafkaMsgConsumer.java" />
         <option value="$PROJECT_DIR$/../ApacheKafkaPractise/src/KafkaSparkStream.java" />
         <option value="$PROJECT_DIR$/src/main/java/SparkStreamingExample.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/../ApacheKafkaPractise/src/KafkaMsgProducer.java" />
         <option value="$PROJECT_DIR$/../ApacheKafkaPractise/src/TwitterKafkaConnector.java" />
         <option value="$PROJECT_DIR$/../ApacheKafkaPractise/src/com/info/TwitterKafkaConnector.java" />
@@ -146,8 +164,11 @@
         <option value="$PROJECT_DIR$/../ApacheKafkaPractise/src/TwitterKafkaExample.java" />
         <option value="$PROJECT_DIR$/../ApacheKafkaPractise/src/TwitterStatusUpdate.java" />
         <option value="$PROJECT_DIR$/src/main/java/SparkKafkaStream.java" />
-        <option value="$PROJECT_DIR$/src/main/java/StreamJoiningWithChecksum.java" />
         <option value="$PROJECT_DIR$/src/main/java/SparkSocketStream.java" />
+        <option value="$PROJECT_DIR$/src/main/java/StreamJoiningWithChecksum.java" />
+        <option value="$PROJECT_DIR$/src/main/java/SparkJavaFirst.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/SparkSQLCassandra.java" />
       </list>
     </option>
   </component>
@@ -185,8 +206,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -229,7 +250,7 @@
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -260,7 +281,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.SparkSocketStream">
+  <component name="RunManager" selected="Application.SparkSQLCassandra">
     <configuration name="KafkaMsgConsumer" type="Application" factoryName="Application">
       <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -276,11 +297,27 @@
         <option name="Make" enabled="false" />
       </method>
     </configuration>
+    <configuration name="SparkJavaFirst" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="SparkJavaFirst" />
+      <module name="SparkCassandraConnector" />
+      <option name="VM_PARAMETERS" value="-Dcom.datastax.driver.USE_NATIVE_CLOCK=false" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+    </configuration>
     <configuration name="SparkKafkaStream" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
       <option name="MAIN_CLASS_NAME" value="SparkKafkaStream" />
       <module name="SparkCassandraConnector" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+    </configuration>
+    <configuration name="SparkSQLCassandra" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="SparkSQLCassandra" />
+      <module name="SparkCassandraConnector" />
+      <option name="VM_PARAMETERS" value="-Dcom.datastax.driver.USE_NATIVE_CLOCK=false" />
       <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
     </configuration>
     <configuration name="SparkSocketStream" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -294,13 +331,6 @@
       <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
       <option name="MAIN_CLASS_NAME" value="TwitterKafkaExample" />
-      <module name="ApacheKafkaPractise" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$/../ApacheKafkaPractise" />
-    </configuration>
-    <configuration name="TwitterStatusUpdate" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
-      <option name="MAIN_CLASS_NAME" value="TwitterStatusUpdate" />
       <module name="ApacheKafkaPractise" />
       <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$/../ApacheKafkaPractise" />
     </configuration>
@@ -352,17 +382,18 @@
       <item itemvalue="Application.TwitterKafkaExample" />
       <item itemvalue="Application.KafkaMsgConsumer" />
       <item itemvalue="Application.KafkaMsgProducer" />
-      <item itemvalue="Application.TwitterStatusUpdate" />
       <item itemvalue="Application.SparkKafkaStream" />
       <item itemvalue="Application.SparkSocketStream" />
+      <item itemvalue="Application.SparkSQLCassandra" />
+      <item itemvalue="Application.SparkJavaFirst" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SparkSQLCassandra" />
+        <item itemvalue="Application.SparkJavaFirst" />
         <item itemvalue="Application.KafkaMsgProducer" />
         <item itemvalue="Application.SparkKafkaStream" />
         <item itemvalue="Application.SparkSocketStream" />
-        <item itemvalue="Application.TwitterStatusUpdate" />
-        <item itemvalue="Application.KafkaMsgConsumer" />
       </list>
     </recent_temporary>
   </component>
@@ -385,18 +416,18 @@
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" order="7" sideWeight="0.49848714" weight="0.3267974" />
+      <window_info anchor="bottom" id="Messages" order="7" sideWeight="0.48940998" weight="0.3267974" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50073206" side_tool="true" weight="0.2369281" />
       <window_info anchor="right" id="Maven Projects" order="3" visible="true" weight="0.1376702" />
-      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" x="22" y="293" width="1322" height="141" id="Run" order="2" sideWeight="0.5015129" side_tool="true" visible="true" weight="0.50816995" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info active="true" anchor="bottom" x="22" y="293" width="1322" height="141" id="Run" order="2" sideWeight="0.51059" side_tool="true" visible="true" weight="0.3267974" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4989154" visible="true" weight="0.17927383" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4989154" visible="true" weight="0.18154311" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
@@ -425,7 +456,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/SparkJavaFirst.java</url>
-          <line>99</line>
+          <line>98</line>
           <properties />
           <option name="timeStamp" value="2" />
         </line-breakpoint>
@@ -452,37 +483,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../ApacheKafkaPractise/src/KafkaMsgConsumer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" column="45" lean-forward="true" selection-start-line="23" selection-start-column="45" selection-end-line="23" selection-end-column="45" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../ApacheKafkaPractise/src/KafkaMsgProducer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/SparkKafkaStream.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="799">
-          <caret line="47" column="62" lean-forward="true" selection-start-line="47" selection-start-column="62" selection-end-line="47" selection-end-column="62" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../ApacheKafkaPractise/src/com/info/TwitterKafkaConnector.java" />
     <entry file="file://$PROJECT_DIR$/../ApacheKafkaPractise/src/KafkaMsgProducer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
@@ -591,16 +591,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Product.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/com/datastax/spark/spark-cassandra-connector-unshaded_2.11/2.0.2/spark-cassandra-connector-unshaded_2.11-2.0.2.jar!/com/datastax/spark/connector/japi/CassandraJavaUtil.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1326">
@@ -700,18 +690,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="274">
-          <caret line="98" column="21" selection-start-line="98" selection-start-column="21" selection-end-line="98" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../TwitterKafka/src/info/TwitterKafkaConnector.java" />
     <entry file="file://$PROJECT_DIR$/../ApacheKafkaPractise/src/com/info/HelloWorld.java" />
-    <entry file="file://$PROJECT_DIR$/../TwitterKafka/src/TwitterKafkaExample.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/../ApacheKafkaPractise/src/com/info/TwitterKafkaConnector.java" />
     <entry file="file://$PROJECT_DIR$/../ApacheKafkaPractise/src/TwitterStatusUpdate.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -749,8 +729,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../ApacheKafkaPractise/src/KafkaMsgProducer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="18" column="32" lean-forward="true" selection-start-line="18" selection-start-column="32" selection-end-line="18" selection-end-column="32" />
+        <state relative-caret-position="187">
+          <caret line="18" column="32" selection-start-line="18" selection-start-column="32" selection-end-line="18" selection-end-column="32" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -760,7 +740,6 @@
     <entry file="file://$PROJECT_DIR$/../ApacheKafkaPractise/src/KafkaMsgConsumer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state>
-          <caret lean-forward="true" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -774,40 +753,100 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/SparkKafkaStream.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/SparkSocketStream.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="47" column="32" selection-start-line="47" selection-start-column="32" selection-end-line="47" selection-end-column="32" />
+        <state relative-caret-position="306">
+          <caret line="34" column="48" selection-start-line="34" selection-start-column="48" selection-end-line="34" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/StreamJoiningWithChecksum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="34" column="38" selection-start-line="34" selection-start-column="34" selection-end-line="34" selection-end-column="38" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/SparkKafkaStream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="35" column="58" selection-start-line="35" selection-start-column="58" selection-end-line="35" selection-end-column="58" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Product.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/spark/spark-core_2.11/2.0.2/spark-core_2.11-2.0.2.jar!/org/apache/spark/api/java/JavaSparkContext.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="91">
+          <caret line="117" column="26" selection-start-line="117" selection-start-column="26" selection-end-line="117" selection-end-column="26" />
+          <folding>
+            <element signature="e#25649#25650#0" expanded="true" />
+            <element signature="e#25726#25727#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/SparkJavaFirst.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="100" lean-forward="true" selection-start-line="100" selection-end-line="100" />
+        <state relative-caret-position="131">
+          <caret line="108" column="39" selection-start-line="108" selection-start-column="39" selection-end-line="108" selection-end-column="39" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/StreamJoiningWithChecksum.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/spark/spark-sql_2.11/2.0.2/spark-sql_2.11-2.0.2.jar!/org/apache/spark/sql/Dataset.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="36" column="2" selection-start-line="36" selection-start-column="2" selection-end-line="53" selection-end-column="29" />
+        <state relative-caret-position="120">
+          <caret line="146" column="13" selection-start-line="146" selection-start-column="13" selection-end-line="146" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="24" column="21" lean-forward="true" selection-start-line="24" selection-start-column="21" selection-end-line="24" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/spark/spark-sql_2.11/2.0.2/spark-sql_2.11-2.0.2.jar!/org/apache/spark/sql/DataFrameReader.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="128">
+          <caret line="172" column="24" selection-start-line="172" selection-start-column="24" selection-end-line="172" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/spark/spark-sql_2.11/2.0.2/spark-sql_2.11-2.0.2.jar!/org/apache/spark/sql/SQLContext.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="328" column="16" selection-start-line="328" selection-start-column="16" selection-end-line="328" selection-end-column="16" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#35181#35182#0" expanded="true" />
+            <element signature="e#35234#35235#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/SparkSocketStream.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/SparkSQLCassandra.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="53">
-          <caret line="34" column="48" lean-forward="true" selection-start-line="34" selection-start-column="48" selection-end-line="34" selection-end-column="48" />
+        <state relative-caret-position="34">
+          <caret line="2" column="50" selection-start-line="2" selection-start-column="50" selection-end-line="2" selection-end-column="50" />
         </state>
       </provider>
     </entry>

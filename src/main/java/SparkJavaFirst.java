@@ -82,7 +82,6 @@ public class SparkJavaFirst implements Serializable {
                         set("spark.cassandra.input.consistency.level", "ONE").
                         set("spark.cassandra.read.timeout_ms","360000");
         JavaSparkContext sc = new JavaSparkContext(conf);
-        SQLContext sqlContext = new SQLContext(sc);
 
 /*
         JavaRDD<Product> productJavaRDD = sc.parallelize(products);
@@ -100,7 +99,7 @@ public class SparkJavaFirst implements Serializable {
         JavaRDD<CassandraRow> cassandraJavaRDD =  CassandraJavaUtil.javaFunctions(sc).
                 cassandraTable("people","people" ).where("salary > 1000").
                 select("last_name","salary").filter(row -> row.getString("last_name").equals("mehul"));
-        
+
 // TO Tuple
         JavaRDD<Tuple2<String, Double>> javaRDD =  CassandraJavaUtil.javaFunctions(sc).
                 cassandraTable("people","people",CassandraJavaUtil.mapRowToTuple(String.class,Double.class) ).where("salary > 1000").
@@ -112,6 +111,7 @@ public class SparkJavaFirst implements Serializable {
                 withConsistencyLevel(ConsistencyLevel.ONE).
                 withColumnSelector(CassandraJavaUtil.someColumns("last_name","salary")).
                 saveToCassandra();
+
 
         System.out.println("Output is"+cassandraJavaRDD.take(10).toString());
         System.out.println("Output is"+javaRDD.take(10).toString());

@@ -19,6 +19,11 @@
             <version>[4.0,)</version>
         </dependency>
         <dependency>
+            <groupId>com.google.guava</groupId>
+            <artifactId>guava</artifactId>
+            <version>19.0</version>
+        </dependency>
+        <dependency>
             <groupId>org.apache.spark</groupId>
             <artifactId>spark-streaming-kafka-0-10_2.11</artifactId>
             <version>2.2.0</version>
@@ -38,7 +43,7 @@
         <artifactId>dse-spark-dependencies</artifactId>
         <version>5.1.1</version>
         <exclusions>
-            <!--<exclusion>
+           <!-- <exclusion>
                 <groupId>com.datastax.dse</groupId>
                 <artifactId>dse-java-driver-core</artifactId>
             </exclusion>-->
